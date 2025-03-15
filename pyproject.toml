@@ -1,0 +1,26 @@
+[project]
+name = "foiakit-datascience"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Phyo Arkar Lwin", email = "phyoakl@hexcode.tech"},
+]
+dependencies = [
+    "haystack-ai>=2.1.0",
+    "sentence-transformers>=2.7.0",
+    "jupyter>=1.0.0",
+    "pip>=24.0",
+    "ruff>=0.4.3",
+    "nltk>=3.8.1",
+    "datasets>=2.19.1",
+    "openpyxl>=3.1.2",
+    "matplotlib>=3.8.4",
+    "gliner>=0.1.12",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
